@@ -27,28 +27,31 @@ def load_clean_file(file):
     with open(file,"rb") as f:
         data=json.loads(f.read().decode())
         return data
+
+
 def parser(d):
-    s_dict={}
+    s_dict = {}
     Customer_reviews_data = []
-    reviews__ratings_base_path = d.get("hotelDetailResponse", {}).get("hotelComment", {}).get("comment",{})
+    reviews__ratings_base_path = d.get("hotelDetailResponse", {}).get("hotelComment", {}).get("comment", {})
     recommed_name = d["seoSSRData"]["seoFooterModule"]["title"]
-    if isinstance(d,dict):
+
+    if isinstance(d, dict):
         path = d.get("hotelDetailResponse").get("hotelBaseInfo")
-        if isinstance(path,dict):
-            s_dict["Name"]=path.get("hotelNames")[0]
+        if isinstance(path, dict):
+            s_dict["Name"] = path.get("hotelNames")[0]
             s_dict["HotelId"] = d.get("ssrHotelRoomListRequest").get("search").get("hotelId")
             sub_path = d.get("hotelDetailResponse").get("hotelDescriptionInfo")
-            address_path =d.get("hotelDetailResponse").get("hotelPositionInfo").get("address")
+            address_path = d.get("hotelDetailResponse").get("hotelPositionInfo").get("address")
             room_path = sub_path.get("lables")
-            phone_path =sub_path.get("tels")
-            basic_info={
-                "Number_of_room":room_path[1][17:21],
-                "OpenYear":room_path[0][8:13],
-                "PhoneNo":phone_path[0].get("show"),
-                "Description":sub_path.get("description")
+            phone_path = sub_path.get("tels")
+            basic_info = {
+                "Number_of_room": room_path[1][17:21],
+                "OpenYear": room_path[0][8:13],
+                "PhoneNo": phone_path[0].get("show"),
+                "Description": sub_path.get("description")
             }
             s_dict["Basic_info"] = basic_info
-            #loctaion
+            # location
             s_dict["location"] = {
                 "Address": address_path,
                 "City": path.get("cityName"),
@@ -57,21 +60,21 @@ def parser(d):
                 "Pincode": int(re.search(r"\d{6}", address_path).group())
             }
             # Policy
-            po =d.get("hotelDetailResponse").get("hotelPolicyInfo").get("checkInAndOut").get("content")
+            po = d.get("hotelDetailResponse").get("hotelPolicyInfo").get("checkInAndOut").get("content")
             b = d.get("hotelDetailResponse").get("hotelPolicyInfo").get("breakfast").get("content")
-            breakfast_dict={
+            breakfast_dict = {
                 "Timeing": b[1].get("description"),
-                "price":b[2].get("tab").get("tableItems")[0].get("tableDetails")[1].get("content")[9:]
+                "price": b[2].get("tab").get("tableItems")[0].get("tableDetails")[1].get("content")[9:]
             }
-            policy_dict={
-                "checkIn":po[0].get("description"),
+            policy_dict = {
+                "checkIn": po[0].get("description"),
                 "checkOut": po[1].get("description"),
                 "frontdeskhours": po[2].get("description"),
-                "Breakfast":breakfast_dict
+                "Breakfast": breakfast_dict
             }
             s_dict["Policy"] = policy_dict
-            # nearBy
-            nearby=[]
+            # nearby locations
+            nearby = []
             nearby_name = d.get("hotelDetailResponse").get("hotelPositionInfo").get("placeInfo").get("wholePoiInfoList")
             for item in nearby_name:
                 if isinstance(item, dict):
@@ -81,10 +84,12 @@ def parser(d):
                         "Name": item.get("poiName")
                     })
             s_dict["Nearby_location"] = nearby
-        #room details
+
+        # room details (removing duplication)
         result = []
         rooms = d.get('hotelCommentResponse').get('commentStaticInfo').get('roomList')
         picture_facility_path = d.get('seoSSRData').get('seoHotelRooms').get('physicRoomMap')
+
         for room in rooms:
             if not room:
                 continue
@@ -102,25 +107,34 @@ def parser(d):
             facility_path = picture_facility_path.get(str(room_id), {}).get('baseFacilityInfo', [])
             bedInfo = picture_facility_path.get(str(room_id), {}).get('bedInfo', {})
             more_facility_list = picture_facility_path.get(str(room_id), {}).get('newFacilityList')
+
+            # Adding pictures to room_info
             for pic in room_pictures:
                 url = pic.get('url')
                 if url:
                     room_info["url"].append(url)
-            result.append(room_info)
+
+            # Adding facilities to room_info
             for facility in facility_path:
                 title = facility.get('title')
                 if title:
                     room_info['facilitys'].append(title)
+
             bed_title = bedInfo.get('title')
             if bed_title:
                 room_info['facilitys'].append(bed_title)
+
             for more in more_facility_list:
                 more_list = more.get('title')
                 if more_list:
                     room_info['facilitys'].append(more_list)
+
+            # Only append room_info once
             result.append(room_info)
-        s_dict["Roomdetails"]= result
-    # Rating
+
+        s_dict["Roomdetails"] = result
+
+    # Rating section
     for review in reviews__ratings_base_path.get("positiveDirection", []):
         temp_review = {
             "Guest_Name": review.get("userInfo").get("nickName"),
@@ -130,20 +144,23 @@ def parser(d):
         }
         Customer_reviews_data.append(temp_review)
         s_dict["Customer_reviews_data"] = Customer_reviews_data
-        Rating_data = []
-        rating_path = reviews__ratings_base_path.get("scoreDetail", [])
-        for rate in rating_path:
-            temp_rating = {
-                "Category": rate.get("showName"),
-                "Rating": rate.get("showScore")
-            }
-            Rating_data.append(temp_rating)
-        s_dict["Ratingdata"] = Rating_data
+
+    Rating_data = []
+    rating_path = reviews__ratings_base_path.get("scoreDetail", [])
+    for rate in rating_path:
+        temp_rating = {
+            "Category": rate.get("showName"),
+            "Rating": rate.get("showScore")
+        }
+        Rating_data.append(temp_rating)
+    s_dict["Ratingdata"] = Rating_data
+
     # Recommendations
     s_dict[recommed_name] = {}
     most_view_name = d["seoSSRData"]["seoFooterModule"]["footerItem"][0]["title"].replace(" ", "_")
     s_dict[recommed_name][most_view_name] = []
     most_viewe_list = d["seoSSRData"]["seoFooterModule"]["footerItem"][0]["linkItem"]
+
     for data in most_viewe_list:
         hotal_dict = {}
         hotal_dict["hotel_name"] = data["text"]
