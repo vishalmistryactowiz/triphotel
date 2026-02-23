@@ -1,0 +1,586 @@
+{
+    "Name": "Hilton Garden Inn Mumbai International Airport",
+    "HotelId": 127226948,
+    "Basic_info": {
+        "Number_of_room": "140",
+        "OpenYear": "2025",
+        "PhoneNo": "+91-22-65275555",
+        "Description": "Nestled only two kilometers away from the Mumbai International Airport, Hilton Garden Inn creates a positively appealing environment, promising exceptional stays for business and leisure travelers alike. Featuring generous rooms and a commitment to personalized, brighthearted hospitality, the hotel seamlessly blends relaxation, comfort and productivity. Our brilliantly designed amenities and elevated extras reflect the idea of thoughtful and bright experiences - one stay at a time."
+    },
+    "location": {
+        "Address": "Sahar Road, Mumbai, Maharashtra 400099, India",
+        "City": "Mumbai",
+        "State": "Maharashtra",
+        "Country": "India",
+        "Pincode": 400099
+    },
+    "Nearby_location": [
+        {
+            "distance": "3.7 km",
+            "dist_type": "DRIVE",
+            "Name": "Andheri"
+        },
+        {
+            "distance": "8.6 km",
+            "dist_type": "DRIVE",
+            "Name": "Western Suburbs"
+        },
+        {
+            "distance": "590m",
+            "dist_type": "WALK",
+            "Name": "Chakala Gaondevi Mata Mahakali Mandir(opp rajshree society)society is"
+        },
+        {
+            "distance": "1.8 km",
+            "dist_type": "WALK",
+            "Name": "Chhatrapati Shivaji Maharaj International Airport"
+        },
+        {
+            "distance": "960m",
+            "dist_type": "WALK",
+            "Name": "Our Lady Of Health Church"
+        },
+        {
+            "distance": "1.0 km",
+            "dist_type": "WALK",
+            "Name": "Hungry Minds"
+        },
+        {
+            "distance": "1.0 km",
+            "dist_type": "WALK",
+            "Name": "Sahar Ayyappa Shiva Parvati Temple"
+        },
+        {
+            "distance": "1.3 km",
+            "dist_type": "WALK",
+            "Name": "BMC Ground , Sahar"
+        },
+        {
+            "distance": "1.5 km",
+            "dist_type": "WALK",
+            "Name": "FUNKY GARDEN MAROL PIPELINE"
+        },
+        {
+            "distance": "1.6 km",
+            "dist_type": "WALK",
+            "Name": "Chakala"
+        }
+    ],
+    "Roomdetails": [
+        {
+            "id": 519527237,
+            "name": "King Room",
+            "url": [
+                "https://aw-d.tripcdn.com/images/1mc5e12000mmkc042CCC4.jpg",
+                "https://aw-d.tripcdn.com/images/0221n12000j4eyh9u3D91.jpg",
+                "https://aw-d.tripcdn.com/images/0223812000mil3wboAF98.jpg",
+                "https://aw-d.tripcdn.com/images/0226t12000mil3ypp4D7E.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527237,
+            "name": "King Room",
+            "url": [
+                "https://aw-d.tripcdn.com/images/1mc5e12000mmkc042CCC4.jpg",
+                "https://aw-d.tripcdn.com/images/0221n12000j4eyh9u3D91.jpg",
+                "https://aw-d.tripcdn.com/images/0223812000mil3wboAF98.jpg",
+                "https://aw-d.tripcdn.com/images/0226t12000mil3ypp4D7E.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527250,
+            "name": "Twin Room",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0222f12000mil3xdb2F18.jpg",
+                "https://aw-d.tripcdn.com/images/0226412000r5zp2m47792.jpg",
+                "https://aw-d.tripcdn.com/images/0223k12000nwdk9j7FA9F.jpg",
+                "https://aw-d.tripcdn.com/images/0220q12000mil3vy12CB1.jpg",
+                "https://aw-d.tripcdn.com/images/0224412000mil3uto6F47.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527250,
+            "name": "Twin Room",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0222f12000mil3xdb2F18.jpg",
+                "https://aw-d.tripcdn.com/images/0226412000r5zp2m47792.jpg",
+                "https://aw-d.tripcdn.com/images/0223k12000nwdk9j7FA9F.jpg",
+                "https://aw-d.tripcdn.com/images/0220q12000mil3vy12CB1.jpg",
+                "https://aw-d.tripcdn.com/images/0224412000mil3uto6F47.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527249,
+            "name": "King Room With City View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0220312000lg1dipj32DC.jpg",
+                "https://aw-d.tripcdn.com/images/0223712000mil464jDC34.jpg",
+                "https://aw-d.tripcdn.com/images/0222c12000mil47c65A76.jpg",
+                "https://aw-d.tripcdn.com/images/0221612000mil42vm511E.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527249,
+            "name": "King Room With City View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0220312000lg1dipj32DC.jpg",
+                "https://aw-d.tripcdn.com/images/0223712000mil464jDC34.jpg",
+                "https://aw-d.tripcdn.com/images/0222c12000mil47c65A76.jpg",
+                "https://aw-d.tripcdn.com/images/0221612000mil42vm511E.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527254,
+            "name": "Twin Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0222j12000mil42ei3782.jpg",
+                "https://aw-d.tripcdn.com/images/0222212000mil423h9E1D.jpg",
+                "https://aw-d.tripcdn.com/images/0220q12000mil3vy12CB1.jpg",
+                "https://aw-d.tripcdn.com/images/0224412000mil3uto6F47.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527254,
+            "name": "Twin Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0222j12000mil42ei3782.jpg",
+                "https://aw-d.tripcdn.com/images/0222212000mil423h9E1D.jpg",
+                "https://aw-d.tripcdn.com/images/0220q12000mil3vy12CB1.jpg",
+                "https://aw-d.tripcdn.com/images/0224412000mil3uto6F47.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527251,
+            "name": "King Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0222u12000l7nrxrrC7C5.jpg",
+                "https://aw-d.tripcdn.com/images/0221912000mil42wzF1F5.jpg",
+                "https://aw-d.tripcdn.com/images/0222c12000mil47c65A76.jpg",
+                "https://aw-d.tripcdn.com/images/1mc0a12000mmkj8gaB881.jpg",
+                "https://aw-d.tripcdn.com/images/0226212000j4eyh9o647C.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527251,
+            "name": "King Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0222u12000l7nrxrrC7C5.jpg",
+                "https://aw-d.tripcdn.com/images/0221912000mil42wzF1F5.jpg",
+                "https://aw-d.tripcdn.com/images/0222c12000mil47c65A76.jpg",
+                "https://aw-d.tripcdn.com/images/1mc0a12000mmkj8gaB881.jpg",
+                "https://aw-d.tripcdn.com/images/0226212000j4eyh9o647C.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "24m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527253,
+            "name": "Deluxe Twin Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0224d12000rl01fsqCAD6.jpg",
+                "https://aw-d.tripcdn.com/images/0222212000mil423h9E1D.jpg",
+                "https://aw-d.tripcdn.com/images/0226412000r5zp2m47792.jpg",
+                "https://aw-d.tripcdn.com/images/0223k12000nwdk9j7FA9F.jpg",
+                "https://aw-d.tripcdn.com/images/1mc4412000mmkpw2oBFE2.jpg",
+                "https://aw-d.tripcdn.com/images/0222r12000l9lwqj77541.jpg",
+                "https://aw-d.tripcdn.com/images/0224a12000mjpy89pA366.jpg",
+                "https://aw-d.tripcdn.com/images/1mc0w12000mmkqhd58F95.jpg",
+                "https://aw-d.tripcdn.com/images/0223z12000k0n4zkw6DF6.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527253,
+            "name": "Deluxe Twin Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0224d12000rl01fsqCAD6.jpg",
+                "https://aw-d.tripcdn.com/images/0222212000mil423h9E1D.jpg",
+                "https://aw-d.tripcdn.com/images/0226412000r5zp2m47792.jpg",
+                "https://aw-d.tripcdn.com/images/0223k12000nwdk9j7FA9F.jpg",
+                "https://aw-d.tripcdn.com/images/1mc4412000mmkpw2oBFE2.jpg",
+                "https://aw-d.tripcdn.com/images/0222r12000l9lwqj77541.jpg",
+                "https://aw-d.tripcdn.com/images/0224a12000mjpy89pA366.jpg",
+                "https://aw-d.tripcdn.com/images/1mc0w12000mmkqhd58F95.jpg",
+                "https://aw-d.tripcdn.com/images/0223z12000k0n4zkw6DF6.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527240,
+            "name": "Deluxe King Room With City View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/1mc5q12000mmkm3yr767D.jpg",
+                "https://aw-d.tripcdn.com/images/0226b12000mil3zpk3C3C.jpg",
+                "https://aw-d.tripcdn.com/images/0225012000j4eygdx105F.jpg",
+                "https://aw-d.tripcdn.com/images/0221j12000milc708A521.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "31m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527240,
+            "name": "Deluxe King Room With City View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/1mc5q12000mmkm3yr767D.jpg",
+                "https://aw-d.tripcdn.com/images/0226b12000mil3zpk3C3C.jpg",
+                "https://aw-d.tripcdn.com/images/0225012000j4eygdx105F.jpg",
+                "https://aw-d.tripcdn.com/images/0221j12000milc708A521.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "31m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 526504270,
+            "name": "Deluxe Twin Room With City View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0223912000mil432z7F45.jpg",
+                "https://aw-d.tripcdn.com/images/0226q12000mil46kw2547.jpg",
+                "https://aw-d.tripcdn.com/images/0226412000r5zp2m47792.jpg",
+                "https://aw-d.tripcdn.com/images/0220q12000mil3vy12CB1.jpg",
+                "https://aw-d.tripcdn.com/images/0221612000mil42vm511E.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 526504270,
+            "name": "Deluxe Twin Room With City View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0223912000mil432z7F45.jpg",
+                "https://aw-d.tripcdn.com/images/0226q12000mil46kw2547.jpg",
+                "https://aw-d.tripcdn.com/images/0226412000r5zp2m47792.jpg",
+                "https://aw-d.tripcdn.com/images/0220q12000mil3vy12CB1.jpg",
+                "https://aw-d.tripcdn.com/images/0221612000mil42vm511E.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527258,
+            "name": "Deluxe King Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0220a12000mil493gAF70.jpg",
+                "https://aw-d.tripcdn.com/images/0222c12000mil47c65A76.jpg",
+                "https://aw-d.tripcdn.com/images/0224s12000mil4boaB5C5.jpg",
+                "https://aw-d.tripcdn.com/images/0224t12000mil469z0712.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        },
+        {
+            "id": 519527258,
+            "name": "Deluxe King Room With Runway View",
+            "url": [
+                "https://aw-d.tripcdn.com/images/0220a12000mil493gAF70.jpg",
+                "https://aw-d.tripcdn.com/images/0222c12000mil47c65A76.jpg",
+                "https://aw-d.tripcdn.com/images/0224s12000mil4boaB5C5.jpg",
+                "https://aw-d.tripcdn.com/images/0224t12000mil469z0712.jpg"
+            ],
+            "facilitys": [
+                "Air conditioning",
+                "Private bathroom",
+                "Minibar",
+                "TV",
+                "Shower",
+                "1 King bed",
+                "26m²",
+                "Has window",
+                "Non-smoking",
+                "Free Wi-Fi"
+            ]
+        }
+    ],
+    "Customer_reviews_data": [
+        {
+            "Guest_Name": "Guest User",
+            "Guest_id": 1821111124,
+            "Comment": "Great location near the airport and excellent service.",
+            "Guest_Profile": "https://ak-d.tripcdn.com/target/1i56212000h1rgk0b6C22.jpg"
+        },
+        {
+            "Guest_Name": "Anonymous User",
+            "Guest_id": 1821142452,
+            "Comment": "Very good sleeping here",
+            "Guest_Profile": "https://ak-d.tripcdn.com/target/0AS27120009wz6aovB7AA.png"
+        },
+        {
+            "Guest_Name": "Guest User",
+            "Guest_id": 1790447625,
+            "Comment": "The room was very clean, and the restaurant was also good.",
+            "Guest_Profile": "https://ak-d.tripcdn.com/target/27c3u12000na9j5gpFBB6.jpg"
+        }
+    ],
+    "Ratingdata": [
+        {
+            "Category": "Cleanliness",
+            "Rating": "9.4"
+        },
+        {
+            "Category": "Amenities",
+            "Rating": "8.9"
+        },
+        {
+            "Category": "Location",
+            "Rating": "9.3"
+        },
+        {
+            "Category": "Service",
+            "Rating": "9.3"
+        }
+    ],
+    "Policy": {
+        "checkIn": "After 15:00",
+        "checkOut": "Before 12:00",
+        "frontdeskhours": "Front desk hours: 24/7",
+        "Breakfast": {
+            "Timeing": "[Mon - Sun] 08:00-10:30 Open ",
+            "price": "1,800.00 per person"
+        }
+    },
+    "Recommendations": {
+        "Most_viewed_hotels": [
+            {
+                "hotel_name": "Fairmont Mumbai",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-126248160/fairmont-mumbai/"
+            },
+            {
+                "hotel_name": "Ginger Mumbai Airport",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-110734738/ginger-mumbai-airport/"
+            },
+            {
+                "hotel_name": "Hilton Garden Inn Mumbai International Airport",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-127226948/hilton-garden-inn-mumbai-international-airport/"
+            },
+            {
+                "hotel_name": "Hilton Mumbai International Airport",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-2132939/hilton-mumbai-airport/"
+            },
+            {
+                "hotel_name": "Moxy Mumbai Andheri West",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-121115948/moxy-mumbai-andheri-west/"
+            },
+            {
+                "hotel_name": "Trident, Bandra Kurla, Mumbai",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-762895/trident-bandra-kurla-mumbai/"
+            },
+            {
+                "hotel_name": "Taj Lands End",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-762675/taj-lands-end/"
+            },
+            {
+                "hotel_name": "Trident, Nariman Point, Mumbai",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-762816/trident-nariman-point-mumbai/"
+            },
+            {
+                "hotel_name": "Taj Santacruz",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-4627954/taj-santacruz/"
+            },
+            {
+                "hotel_name": "The Westin Mumbai Garden City",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-763296/the-westin-mumbai-garden-city/"
+            },
+            {
+                "hotel_name": "OYO 24303 Fatima Palace",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-28516317/oyo-24303-fatima-palace/"
+            },
+            {
+                "hotel_name": "Xpress AC Dormitory - Dadar",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-36138323/xpress-ac-dormitory-dadar/"
+            },
+            {
+                "hotel_name": "OYO Rooms Dadar Railway Station",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-5633273/oyo-rooms-dadar-railway-station/"
+            },
+            {
+                "hotel_name": "Subhash Lodge",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-22795052/subhash-lodge/"
+            },
+            {
+                "hotel_name": "OYO 37559 Hotel Al Haram",
+                "hotel_url": "https://in.trip.com/hotels/mumbai-hotel-detail-61941172/oyo-37559-hotel-al-haram/"
+            }
+        ]
+    }
+}
